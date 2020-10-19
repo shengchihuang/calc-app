@@ -1,0 +1,20 @@
+{
+  "name": "calc-app",
+  "version": "1.0.0",
+  "description": "calculator application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shengchi Huang",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-rebuild": "^2.2.0"
+  },
+  "dependencies": {
+    "nan": "^2.14.2"
+  },
+  "gypfile": true
+}
